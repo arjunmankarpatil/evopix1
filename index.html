@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evopix Download</title>
+<meta name="description" content="Download Evopix, a layer-based photo editor for Android with brushes, masks, selections and colour grading.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<!--
+  EDIT THESE BEFORE UPLOADING TO evopix.in:
+  1. Put your APK file next to this index.html and name it  evopix.apk
+     (or change every href="evopix.apk" below to your file name).
+  2. Update the version, size and Android version in the "Download facts" list.
+-->
+<style>
+:root{
+  /* Layout: one dark editing-studio world — copy on the left, the app on a device on the right */
+  --bg:#0c1214;
+  --panel:#141d20;
+  --line:#22323a;
+  --ink:#e6f0f1;
+  --muted:#8ea3a8;
+  --teal:#21c7b8;
+  --teal-deep:#0e7f76;
+  --display:"Sora", "Segoe UI", system-ui, sans-serif;
+  --body:"Manrope", "Segoe UI", system-ui, sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--teal)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:8px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+
+/* Header */
+header{border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:20px;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.logo{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--teal),var(--teal-deep));display:grid;place-items:center}
+nav{display:flex;gap:22px;font-size:15px}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--ink)}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:center;padding-top:64px;padding-bottom:56px}
+.tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--teal);border:1px solid var(--line);padding:5px 12px;border-radius:999px;margin-bottom:20px}
+.tag i{width:7px;height:7px;border-radius:50%;background:var(--teal)}
+h1{font-size:clamp(38px,5.4vw,60px);font-weight:800;letter-spacing:-.025em}
+h1 span{color:var(--teal)}
+.lede{color:var(--muted);font-size:19px;max-width:30em;margin:18px 0 30px}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--teal);color:#04201d;font-weight:700;font-size:17px;text-decoration:none;padding:15px 26px;border-radius:12px;transition:transform .15s,background .15s}
+.btn:hover{background:#3ad8ca;transform:translateY(-1px)}
+.btn small{display:block;font-weight:500;font-size:12.5px;opacity:.75;line-height:1.2}
+.btn b{display:block;line-height:1.2}
+.ghost{color:var(--ink);text-decoration:none;font-weight:700;padding:15px 8px}
+.facts{list-style:none;padding:0;margin:30px 0 0;display:flex;flex-wrap:wrap;gap:10px 26px;font-size:14px;color:var(--muted)}
+.facts strong{color:var(--ink);font-variant-numeric:tabular-nums}
+
+/* Device mockup of the editor */
+.device{background:#05090a;border:1px solid var(--line);border-radius:26px;padding:12px;box-shadow:0 30px 80px -30px rgba(33,199,184,.35)}
+.screen{border-radius:16px;overflow:hidden;background:#101719;display:grid;grid-template-columns:52px 1fr 64px;grid-template-rows:30px minmax(0,1fr) 44px;height:clamp(240px,30vw,360px)}
+.topbar{grid-column:1/-1;background:#0b1113;display:flex;align-items:center;gap:8px;padding:0 12px;font-size:11px;color:var(--muted);border-bottom:1px solid #1b272c}
+.topbar .dot{width:7px;height:7px;border-radius:50%;background:var(--teal)}
+.topbar .sp{flex:1}
+.tools{background:#0f1618;border-right:1px solid #1b272c;display:grid;grid-template-columns:1fr 1fr;align-content:start;gap:5px;padding:8px 6px}
+.tools span{aspect-ratio:1;border-radius:5px;background:#1a2529}
+.tools span.on{background:var(--teal)}
+.canvas{position:relative;background:repeating-conic-gradient(#151e21 0 25%,#121a1c 0 50%) 0 0/18px 18px;display:grid;place-items:center;padding:14px}
+.art{height:100%;max-width:100%;aspect-ratio:4/3;border-radius:4px;background:
+  radial-gradient(circle at 72% 30%,#ffd9a0 0 9%,transparent 10%),
+  linear-gradient(180deg,#f08a5d 0%,#d2577a 38%,#4b3d8f 62%,#13304a 100%);position:relative;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.art::before{content:"";position:absolute;left:-5%;right:-5%;bottom:0;height:42%;background:#0d1d2a;clip-path:polygon(0 60%,14% 22%,28% 55%,44% 8%,60% 50%,76% 18%,90% 46%,100% 30%,100% 100%,0 100%)}
+.art::after{content:"";position:absolute;left:18%;top:20%;width:46%;height:44%;border:1.5px dashed #fff;border-radius:2px;opacity:.85}
+.layers{background:#0f1618;border-left:1px solid #1b272c;display:flex;flex-direction:column;gap:6px;padding:8px 7px}
+.layers span{height:34px;border-radius:5px;background:#1a2529;border:1.5px solid transparent}
+.layers span:nth-child(1){background:linear-gradient(180deg,#f08a5d,#4b3d8f);border-color:var(--teal)}
+.layers span:nth-child(2){background:#0d1d2a}
+.bottombar{grid-column:1/-1;background:#0b1113;border-top:1px solid #1b272c;display:flex;align-items:center;gap:16px;padding:0 14px;font-size:10.5px;color:var(--muted);white-space:nowrap;overflow:hidden}
+.bottombar b{color:var(--teal);font-weight:700}
+.slider{flex:0 0 60px;height:4px;border-radius:2px;background:#22323a;position:relative}
+.slider::after{content:"";position:absolute;left:0;top:0;bottom:0;width:65%;background:var(--teal);border-radius:2px}
+
+/* Sections */
+section{padding:72px 0;border-top:1px solid var(--line)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:36px}
+h2{font-size:clamp(28px,3.4vw,38px);font-weight:700;letter-spacing:-.02em}
+.sec-head p{color:var(--muted);max-width:34em;margin:0}
+
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.feature{background:var(--panel);padding:26px 24px}
+.feature svg{width:26px;height:26px;stroke:var(--teal);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.feature h3{font-size:18px;font-weight:700;margin:14px 0 6px}
+.feature p{margin:0;color:var(--muted);font-size:15.5px}
+
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:s}
+.steps li{counter-increment:s;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#04201d;font-family:var(--display);font-weight:800;margin-bottom:14px}
+.steps h3{font-size:18px;margin-bottom:6px}
+.steps p{margin:0;color:var(--muted);font-size:15.5px}
+
+.faq{display:grid;gap:12px;max-width:780px}
+details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 22px}
+summary{cursor:pointer;font-weight:700;padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--teal);font-size:22px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin:0 0 18px;color:var(--muted)}
+
+.final{text-align:left;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap;background:linear-gradient(120deg,#123a37,var(--panel) 60%);border:1px solid var(--line);border-radius:20px;padding:40px}
+.final p{color:var(--muted);margin:8px 0 0}
+
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;padding-top:44px}
+  .screen{height:clamp(220px,52vw,380px)}
+  .features,.steps{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  nav{display:none}
+  .features,.steps{grid-template-columns:1fr}
+  .screen{grid-template-columns:40px 1fr 46px}
+  .final{padding:28px 22px}
+  section{padding:56px 0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <span class="logo" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#04201d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c3-1 5-3 6-6l7-7a2.1 2.1 0 0 0-3-3l-7 7c-3 1-5 3-6 6z"/></svg>
+      </span>
+      Evopix
+    </a>
+    <nav aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#install">How to install</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <span class="tag"><i></i>Free for Android</span>
+      <h1>A real layer editor, <span>right on your phone.</span></h1>
+      <p class="lede">Evopix brings desktop-style photo editing to Android: layers, masks, brushes, selections and colour grading, in a dark studio layout that works in portrait and landscape.</p>
+      <div class="cta">
+        <a class="btn" href="evopix.apk" download>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span><b>Download APK</b><small>For Android phones and tablets</small></span>
+        </a>
+        <a class="ghost" href="#install">How to install →</a>
+      </div>
+      <ul class="facts" aria-label="Download facts">
+        <li>Version <strong>1.0</strong></li>
+        <li>Size <strong>~25 MB</strong></li>
+        <li>Needs <strong>Android 8.0+</strong></li>
+      </ul>
+    </div>
+
+    <div class="device" role="img" aria-label="Evopix editing screen with tool panel, canvas, layers and brush settings">
+      <div class="screen">
+        <div class="topbar"><span class="dot"></span>Sunset_edit.evx<span class="sp"></span>1920 × 1440 px · 100%</div>
+        <div class="tools">
+          <span class="on"></span><span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="canvas"><div class="art"></div></div>
+        <div class="layers"><span></span><span></span><span></span></div>
+        <div class="bottombar">
+          <b>Brush</b><span>Color</span><span>Edge Aware</span><span>Opacity</span><span class="slider"></span><span>Size 24 px</span><span>Blend: Normal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="features">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Everything you reach for in a desktop editor</h2>
+        <p>Built for touch, with mouse-wheel zoom and keyboard shortcuts when you plug in or run it on a PC.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg>
+          <h3>Layers and masks</h3>
+          <p>Stack multiple images, reorder layers, set opacity and blend modes, and mask without destroying pixels.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><path d="M4 20c3-1 5-3 6-6l7-7a2.1 2.1 0 0 0-3-3l-7 7c-3 1-5 3-6 6z"/></svg>
+          <h3>Brushes and gradients</h3>
+          <p>Adjustable size and opacity, edge-aware painting, plain colour fills and gradients.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1" stroke-dasharray="3 3"/><path d="M9 9h6v6H9z"/></svg>
+          <h3>Precise selections</h3>
+          <p>Box and pixel selectors, then cut, copy and paste between layers.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4v16"/><path d="M12 4a8 8 0 0 1 0 16"/></svg>
+          <h3>Colour grading</h3>
+          <p>Fine RGB adjustments and colour grading to set the mood of any shot.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><path d="M6 2v14a2 2 0 0 0 2 2h14"/><path d="M18 22V8a2 2 0 0 0-2-2H2"/></svg>
+          <h3>Crop, rotate, resize</h3>
+          <p>Set exact pixel sizes, crop and rotate, with unlimited undo and redo.</p>
+        </div>
+        <div class="feature">
+          <svg viewBox="0 0 24 24"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+          <h3>Your own fonts</h3>
+          <p>Import downloaded fonts in Settings and use them straight away in the Text tool.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="install">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Install in three steps</h2>
+        <p>Evopix is installed directly from this site, so Android asks you to allow it once.</p>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Download the APK</h3>
+          <p>Tap <strong>Download APK</strong> above. If your browser warns about the file type, choose <strong>Download anyway</strong>.</p>
+        </li>
+        <li>
+          <h3>Allow this install</h3>
+          <p>Open the file. When asked, go to <strong>Settings → Install unknown apps</strong> and allow your browser or Files app.</p>
+        </li>
+        <li>
+          <h3>Install and open</h3>
+          <p>Go back, tap <strong>Install</strong>, then <strong>Open</strong>. Your projects are saved on the start screen.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head"><h2>Questions</h2></div>
+      <div class="faq">
+        <details>
+          <summary>Is Evopix free?</summary>
+          <p>Yes. Download it and use every tool without an account.</p>
+        </details>
+        <details>
+          <summary>Why isn't it on the Play Store?</summary>
+          <p>Evopix is distributed directly from evopix.in for now. Only download it from this site so you always get the official file.</p>
+        </details>
+        <details>
+          <summary>Can I use it on my PC?</summary>
+          <p>Yes. Install the APK in an Android emulator such as BlueStacks. Mouse-wheel zoom and keyboard shortcuts work there.</p>
+        </details>
+        <details>
+          <summary>What formats can I export?</summary>
+          <p>Save finished images as PNG or JPG at the pixel size you choose, or keep the project to continue editing later.</p>
+        </details>
+        <details>
+          <summary>How do I update?</summary>
+          <p>Download the newest APK from this page and install it over the old one. Your saved projects stay where they are.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="final">
+        <div>
+          <h2>Start your first project</h2>
+          <p>Free download for Android 8.0 and newer.</p>
+        </div>
+        <a class="btn" href="evopix.apk" download>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          <span><b>Download APK</b><small>Version 1.0</small></span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Evopix · evopix.in</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  try{document.getElementById('yr').textContent=new Date().getFullYear();}catch(e){}
+</script>
+</body>
+</html>
