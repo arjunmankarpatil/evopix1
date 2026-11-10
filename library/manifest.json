@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-11-10",
  "items": [
   {
@@ -625,6 +625,542 @@
    "thumb": "thumbs/snow-peaks.jpg",
    "file": "nature/snow-peaks.jpg",
    "kb": 153
+  },
+  {
+   "id": "flare-starburst",
+   "name": "Starburst flare",
+   "category": "flares",
+   "thumb": "thumbs/flare-starburst.png",
+   "file": "flares/flare-starburst.png",
+   "kb": 180
+  },
+  {
+   "id": "flare-anamorphic-blue",
+   "name": "Anamorphic blue streak",
+   "category": "flares",
+   "thumb": "thumbs/flare-anamorphic-blue.png",
+   "file": "flares/flare-anamorphic-blue.png",
+   "kb": 60
+  },
+  {
+   "id": "flare-lens-ghosts",
+   "name": "Lens ghosts",
+   "category": "flares",
+   "thumb": "thumbs/flare-lens-ghosts.png",
+   "file": "flares/flare-lens-ghosts.png",
+   "kb": 128
+  },
+  {
+   "id": "flare-sun-glare",
+   "name": "Sun glare",
+   "category": "flares",
+   "thumb": "thumbs/flare-sun-glare.png",
+   "file": "flares/flare-sun-glare.png",
+   "kb": 108
+  },
+  {
+   "id": "flare-rainbow-halo",
+   "name": "Rainbow halo",
+   "category": "flares",
+   "thumb": "thumbs/flare-rainbow-halo.png",
+   "file": "flares/flare-rainbow-halo.png",
+   "kb": 224
+  },
+  {
+   "id": "flare-diagonal-chain",
+   "name": "Diagonal flare chain",
+   "category": "flares",
+   "thumb": "thumbs/flare-diagonal-chain.png",
+   "file": "flares/flare-diagonal-chain.png",
+   "kb": 92
+  },
+  {
+   "id": "flare-bokeh-orbs",
+   "name": "Bokeh light orbs",
+   "category": "flares",
+   "thumb": "thumbs/flare-bokeh-orbs.png",
+   "file": "flares/flare-bokeh-orbs.png",
+   "kb": 114
+  },
+  {
+   "id": "flare-cross-star",
+   "name": "Cross star",
+   "category": "flares",
+   "thumb": "thumbs/flare-cross-star.png",
+   "file": "flares/flare-cross-star.png",
+   "kb": 54
+  },
+  {
+   "id": "flare-neon-purple",
+   "name": "Neon purple glow",
+   "category": "flares",
+   "thumb": "thumbs/flare-neon-purple.png",
+   "file": "flares/flare-neon-purple.png",
+   "kb": 179
+  },
+  {
+   "id": "flare-golden-sparkles",
+   "name": "Golden sparkles",
+   "category": "flares",
+   "thumb": "thumbs/flare-golden-sparkles.png",
+   "file": "flares/flare-golden-sparkles.png",
+   "kb": 157
+  },
+  {
+   "id": "flare-red-orange",
+   "name": "Red-orange flare",
+   "category": "flares",
+   "thumb": "thumbs/flare-red-orange.png",
+   "file": "flares/flare-red-orange.png",
+   "kb": 101
+  },
+  {
+   "id": "fire-single-flame",
+   "name": "Single flame",
+   "category": "fire",
+   "thumb": "thumbs/fire-single-flame.png",
+   "file": "fire/fire-single-flame.png",
+   "kb": 221
+  },
+  {
+   "id": "fire-campfire",
+   "name": "Campfire flames",
+   "category": "fire",
+   "thumb": "thumbs/fire-campfire.png",
+   "file": "fire/fire-campfire.png",
+   "kb": 513
+  },
+  {
+   "id": "fire-blue-flame",
+   "name": "Blue flame",
+   "category": "fire",
+   "thumb": "thumbs/fire-blue-flame.png",
+   "file": "fire/fire-blue-flame.png",
+   "kb": 194
+  },
+  {
+   "id": "fire-green-flame",
+   "name": "Green flame",
+   "category": "fire",
+   "thumb": "thumbs/fire-green-flame.png",
+   "file": "fire/fire-green-flame.png",
+   "kb": 227
+  },
+  {
+   "id": "fire-purple-flame",
+   "name": "Purple flame",
+   "category": "fire",
+   "thumb": "thumbs/fire-purple-flame.png",
+   "file": "fire/fire-purple-flame.png",
+   "kb": 241
+  },
+  {
+   "id": "fire-wall",
+   "name": "Wall of fire",
+   "category": "fire",
+   "thumb": "thumbs/fire-wall.png",
+   "file": "fire/fire-wall.png",
+   "kb": 476
+  },
+  {
+   "id": "fire-ground-blaze",
+   "name": "Ground blaze",
+   "category": "fire",
+   "thumb": "thumbs/fire-ground-blaze.png",
+   "file": "fire/fire-ground-blaze.png",
+   "kb": 305
+  },
+  {
+   "id": "fire-embers",
+   "name": "Rising embers",
+   "category": "fire",
+   "thumb": "thumbs/fire-embers.png",
+   "file": "fire/fire-embers.png",
+   "kb": 140
+  },
+  {
+   "id": "blast-fireball",
+   "name": "Fireball blast",
+   "category": "explosions",
+   "thumb": "thumbs/blast-fireball.png",
+   "file": "explosions/blast-fireball.png",
+   "kb": 515
+  },
+  {
+   "id": "blast-big",
+   "name": "Huge explosion",
+   "category": "explosions",
+   "thumb": "thumbs/blast-big.png",
+   "file": "explosions/blast-big.png",
+   "kb": 614
+  },
+  {
+   "id": "blast-blue",
+   "name": "Blue energy blast",
+   "category": "explosions",
+   "thumb": "thumbs/blast-blue.png",
+   "file": "explosions/blast-blue.png",
+   "kb": 483
+  },
+  {
+   "id": "blast-green",
+   "name": "Toxic green blast",
+   "category": "explosions",
+   "thumb": "thumbs/blast-green.png",
+   "file": "explosions/blast-green.png",
+   "kb": 508
+  },
+  {
+   "id": "blast-purple",
+   "name": "Magic purple blast",
+   "category": "explosions",
+   "thumb": "thumbs/blast-purple.png",
+   "file": "explosions/blast-purple.png",
+   "kb": 476
+  },
+  {
+   "id": "blast-shockwave",
+   "name": "Shockwave ring",
+   "category": "explosions",
+   "thumb": "thumbs/blast-shockwave.png",
+   "file": "explosions/blast-shockwave.png",
+   "kb": 297
+  },
+  {
+   "id": "blast-flash",
+   "name": "Blast flash",
+   "category": "explosions",
+   "thumb": "thumbs/blast-flash.png",
+   "file": "explosions/blast-flash.png",
+   "kb": 296
+  },
+  {
+   "id": "blast-sparks",
+   "name": "Flying sparks",
+   "category": "explosions",
+   "thumb": "thumbs/blast-sparks.png",
+   "file": "explosions/blast-sparks.png",
+   "kb": 273
+  },
+  {
+   "id": "blast-mushroom",
+   "name": "Mushroom cloud",
+   "category": "explosions",
+   "thumb": "thumbs/blast-mushroom.png",
+   "file": "explosions/blast-mushroom.png",
+   "kb": 290
+  },
+  {
+   "id": "sky-clear-blue",
+   "name": "Clear blue sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-clear-blue.jpg",
+   "file": "skies/sky-clear-blue.jpg",
+   "kb": 91
+  },
+  {
+   "id": "sky-fair-cumulus",
+   "name": "Fair-weather clouds",
+   "category": "skies",
+   "thumb": "thumbs/sky-fair-cumulus.jpg",
+   "file": "skies/sky-fair-cumulus.jpg",
+   "kb": 95
+  },
+  {
+   "id": "sky-puffy-day",
+   "name": "Puffy day clouds",
+   "category": "skies",
+   "thumb": "thumbs/sky-puffy-day.jpg",
+   "file": "skies/sky-puffy-day.jpg",
+   "kb": 85
+  },
+  {
+   "id": "sky-overcast",
+   "name": "Overcast grey",
+   "category": "skies",
+   "thumb": "thumbs/sky-overcast.jpg",
+   "file": "skies/sky-overcast.jpg",
+   "kb": 58
+  },
+  {
+   "id": "sky-storm-dark",
+   "name": "Dark storm clouds",
+   "category": "skies",
+   "thumb": "thumbs/sky-storm-dark.jpg",
+   "file": "skies/sky-storm-dark.jpg",
+   "kb": 68
+  },
+  {
+   "id": "sky-sunset-clouds",
+   "name": "Sunset clouds",
+   "category": "skies",
+   "thumb": "thumbs/sky-sunset-clouds.jpg",
+   "file": "skies/sky-sunset-clouds.jpg",
+   "kb": 78
+  },
+  {
+   "id": "sky-golden-hour",
+   "name": "Golden hour sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-golden-hour.jpg",
+   "file": "skies/sky-golden-hour.jpg",
+   "kb": 59
+  },
+  {
+   "id": "sky-dawn-pink",
+   "name": "Dawn pink sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-dawn-pink.jpg",
+   "file": "skies/sky-dawn-pink.jpg",
+   "kb": 61
+  },
+  {
+   "id": "sky-dusk-purple",
+   "name": "Dusk purple sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-dusk-purple.jpg",
+   "file": "skies/sky-dusk-purple.jpg",
+   "kb": 82
+  },
+  {
+   "id": "sky-night-moon",
+   "name": "Night sky with moon",
+   "category": "skies",
+   "thumb": "thumbs/sky-night-moon.jpg",
+   "file": "skies/sky-night-moon.jpg",
+   "kb": 65
+  },
+  {
+   "id": "sky-rainy",
+   "name": "Rainy sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-rainy.jpg",
+   "file": "skies/sky-rainy.jpg",
+   "kb": 118
+  },
+  {
+   "id": "sky-foggy",
+   "name": "Foggy sky",
+   "category": "skies",
+   "thumb": "thumbs/sky-foggy.jpg",
+   "file": "skies/sky-foggy.jpg",
+   "kb": 22
+  },
+  {
+   "id": "sky-rainbow",
+   "name": "Rainbow after rain",
+   "category": "skies",
+   "thumb": "thumbs/sky-rainbow.jpg",
+   "file": "skies/sky-rainbow.jpg",
+   "kb": 90
+  },
+  {
+   "id": "sky-lightning",
+   "name": "Lightning storm",
+   "category": "skies",
+   "thumb": "thumbs/sky-lightning.jpg",
+   "file": "skies/sky-lightning.jpg",
+   "kb": 82
+  },
+  {
+   "id": "gloss-star",
+   "name": "Glossy gold star",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-star.png",
+   "file": "fancy/gloss-star.png",
+   "kb": 133
+  },
+  {
+   "id": "gloss-heart",
+   "name": "Glossy ruby heart",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-heart.png",
+   "file": "fancy/gloss-heart.png",
+   "kb": 140
+  },
+  {
+   "id": "gloss-orb",
+   "name": "Glossy blue orb",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-orb.png",
+   "file": "fancy/gloss-orb.png",
+   "kb": 158
+  },
+  {
+   "id": "gloss-hexagon",
+   "name": "Glossy emerald hexagon",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-hexagon.png",
+   "file": "fancy/gloss-hexagon.png",
+   "kb": 156
+  },
+  {
+   "id": "gloss-shield",
+   "name": "Glossy purple shield",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-shield.png",
+   "file": "fancy/gloss-shield.png",
+   "kb": 116
+  },
+  {
+   "id": "gloss-flower",
+   "name": "Pink flower",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-flower.png",
+   "file": "fancy/gloss-flower.png",
+   "kb": 132
+  },
+  {
+   "id": "gloss-sparkle",
+   "name": "Diamond sparkle",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-sparkle.png",
+   "file": "fancy/gloss-sparkle.png",
+   "kb": 112
+  },
+  {
+   "id": "gloss-bolt",
+   "name": "Golden bolt",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-bolt.png",
+   "file": "fancy/gloss-bolt.png",
+   "kb": 120
+  },
+  {
+   "id": "gloss-moon",
+   "name": "Golden crescent",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-moon.png",
+   "file": "fancy/gloss-moon.png",
+   "kb": 144
+  },
+  {
+   "id": "gloss-crown",
+   "name": "Royal crown",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-crown.png",
+   "file": "fancy/gloss-crown.png",
+   "kb": 91
+  },
+  {
+   "id": "gloss-bubble",
+   "name": "Chat bubble",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-bubble.png",
+   "file": "fancy/gloss-bubble.png",
+   "kb": 82
+  },
+  {
+   "id": "gloss-drop",
+   "name": "Water drop",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-drop.png",
+   "file": "fancy/gloss-drop.png",
+   "kb": 130
+  },
+  {
+   "id": "gloss-gem",
+   "name": "Teal gem",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-gem.png",
+   "file": "fancy/gloss-gem.png",
+   "kb": 112
+  },
+  {
+   "id": "gloss-seal",
+   "name": "Seal badge",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-seal.png",
+   "file": "fancy/gloss-seal.png",
+   "kb": 169
+  },
+  {
+   "id": "gloss-ring",
+   "name": "Glossy ring",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-ring.png",
+   "file": "fancy/gloss-ring.png",
+   "kb": 227
+  },
+  {
+   "id": "gloss-leaf",
+   "name": "Green leaf",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-leaf.png",
+   "file": "fancy/gloss-leaf.png",
+   "kb": 148
+  },
+  {
+   "id": "gloss-cloud",
+   "name": "Soft cloud",
+   "category": "fancy",
+   "thumb": "thumbs/gloss-cloud.png",
+   "file": "fancy/gloss-cloud.png",
+   "kb": 85
+  },
+  {
+   "id": "neon-heart",
+   "name": "Neon heart",
+   "category": "fancy",
+   "thumb": "thumbs/neon-heart.png",
+   "file": "fancy/neon-heart.png",
+   "kb": 170
+  },
+  {
+   "id": "neon-star",
+   "name": "Neon star",
+   "category": "fancy",
+   "thumb": "thumbs/neon-star.png",
+   "file": "fancy/neon-star.png",
+   "kb": 193
+  },
+  {
+   "id": "neon-circle",
+   "name": "Neon circle",
+   "category": "fancy",
+   "thumb": "thumbs/neon-circle.png",
+   "file": "fancy/neon-circle.png",
+   "kb": 158
+  },
+  {
+   "id": "neon-hexagon",
+   "name": "Neon hexagon",
+   "category": "fancy",
+   "thumb": "thumbs/neon-hexagon.png",
+   "file": "fancy/neon-hexagon.png",
+   "kb": 146
+  },
+  {
+   "id": "neon-bolt",
+   "name": "Neon bolt",
+   "category": "fancy",
+   "thumb": "thumbs/neon-bolt.png",
+   "file": "fancy/neon-bolt.png",
+   "kb": 166
+  },
+  {
+   "id": "neon-triangle",
+   "name": "Neon triangle",
+   "category": "fancy",
+   "thumb": "thumbs/neon-triangle.png",
+   "file": "fancy/neon-triangle.png",
+   "kb": 141
+  },
+  {
+   "id": "gold-mandala",
+   "name": "Gold mandala",
+   "category": "fancy",
+   "thumb": "thumbs/gold-mandala.png",
+   "file": "fancy/gold-mandala.png",
+   "kb": 276
+  },
+  {
+   "id": "neon-spiral",
+   "name": "Neon spiral",
+   "category": "fancy",
+   "thumb": "thumbs/neon-spiral.png",
+   "file": "fancy/neon-spiral.png",
+   "kb": 191
   }
  ]
 }
