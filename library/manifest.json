@@ -1,0 +1,630 @@
+{
+ "version": 1,
+ "updated": "2026-11-10",
+ "items": [
+  {
+   "id": "circle",
+   "name": "Circle",
+   "category": "shapes",
+   "thumb": "thumbs/circle.png",
+   "file": "shapes/circle.png",
+   "kb": 32
+  },
+  {
+   "id": "square",
+   "name": "Square",
+   "category": "shapes",
+   "thumb": "thumbs/square.png",
+   "file": "shapes/square.png",
+   "kb": 5
+  },
+  {
+   "id": "rounded-square",
+   "name": "Rounded square",
+   "category": "shapes",
+   "thumb": "thumbs/rounded-square.png",
+   "file": "shapes/rounded-square.png",
+   "kb": 14
+  },
+  {
+   "id": "rectangle",
+   "name": "Rectangle",
+   "category": "shapes",
+   "thumb": "thumbs/rectangle.png",
+   "file": "shapes/rectangle.png",
+   "kb": 7
+  },
+  {
+   "id": "triangle",
+   "name": "Triangle",
+   "category": "shapes",
+   "thumb": "thumbs/triangle.png",
+   "file": "shapes/triangle.png",
+   "kb": 23
+  },
+  {
+   "id": "right-triangle",
+   "name": "Right triangle",
+   "category": "shapes",
+   "thumb": "thumbs/right-triangle.png",
+   "file": "shapes/right-triangle.png",
+   "kb": 6
+  },
+  {
+   "id": "diamond",
+   "name": "Diamond",
+   "category": "shapes",
+   "thumb": "thumbs/diamond.png",
+   "file": "shapes/diamond.png",
+   "kb": 8
+  },
+  {
+   "id": "pentagon",
+   "name": "Pentagon",
+   "category": "shapes",
+   "thumb": "thumbs/pentagon.png",
+   "file": "shapes/pentagon.png",
+   "kb": 27
+  },
+  {
+   "id": "hexagon",
+   "name": "Hexagon",
+   "category": "shapes",
+   "thumb": "thumbs/hexagon.png",
+   "file": "shapes/hexagon.png",
+   "kb": 27
+  },
+  {
+   "id": "octagon",
+   "name": "Octagon",
+   "category": "shapes",
+   "thumb": "thumbs/octagon.png",
+   "file": "shapes/octagon.png",
+   "kb": 7
+  },
+  {
+   "id": "star",
+   "name": "Star",
+   "category": "shapes",
+   "thumb": "thumbs/star.png",
+   "file": "shapes/star.png",
+   "kb": 35
+  },
+  {
+   "id": "star-6",
+   "name": "Six-point star",
+   "category": "shapes",
+   "thumb": "thumbs/star-6.png",
+   "file": "shapes/star-6.png",
+   "kb": 35
+  },
+  {
+   "id": "star-8",
+   "name": "Eight-point star",
+   "category": "shapes",
+   "thumb": "thumbs/star-8.png",
+   "file": "shapes/star-8.png",
+   "kb": 32
+  },
+  {
+   "id": "burst",
+   "name": "Starburst",
+   "category": "shapes",
+   "thumb": "thumbs/burst.png",
+   "file": "shapes/burst.png",
+   "kb": 48
+  },
+  {
+   "id": "heart",
+   "name": "Heart",
+   "category": "shapes",
+   "thumb": "thumbs/heart.png",
+   "file": "shapes/heart.png",
+   "kb": 31
+  },
+  {
+   "id": "plus",
+   "name": "Plus",
+   "category": "shapes",
+   "thumb": "thumbs/plus.png",
+   "file": "shapes/plus.png",
+   "kb": 6
+  },
+  {
+   "id": "ring",
+   "name": "Ring",
+   "category": "shapes",
+   "thumb": "thumbs/ring.png",
+   "file": "shapes/ring.png",
+   "kb": 47
+  },
+  {
+   "id": "crescent",
+   "name": "Crescent",
+   "category": "shapes",
+   "thumb": "thumbs/crescent.png",
+   "file": "shapes/crescent.png",
+   "kb": 32
+  },
+  {
+   "id": "half-circle",
+   "name": "Half circle",
+   "category": "shapes",
+   "thumb": "thumbs/half-circle.png",
+   "file": "shapes/half-circle.png",
+   "kb": 18
+  },
+  {
+   "id": "quarter-circle",
+   "name": "Quarter circle",
+   "category": "shapes",
+   "thumb": "thumbs/quarter-circle.png",
+   "file": "shapes/quarter-circle.png",
+   "kb": 13
+  },
+  {
+   "id": "cloud",
+   "name": "Cloud",
+   "category": "shapes",
+   "thumb": "thumbs/cloud.png",
+   "file": "shapes/cloud.png",
+   "kb": 23
+  },
+  {
+   "id": "speech-bubble",
+   "name": "Speech bubble",
+   "category": "shapes",
+   "thumb": "thumbs/speech-bubble.png",
+   "file": "shapes/speech-bubble.png",
+   "kb": 17
+  },
+  {
+   "id": "lightning",
+   "name": "Lightning",
+   "category": "shapes",
+   "thumb": "thumbs/lightning.png",
+   "file": "shapes/lightning.png",
+   "kb": 27
+  },
+  {
+   "id": "drop",
+   "name": "Drop",
+   "category": "shapes",
+   "thumb": "thumbs/drop.png",
+   "file": "shapes/drop.png",
+   "kb": 27
+  },
+  {
+   "id": "leaf",
+   "name": "Leaf",
+   "category": "shapes",
+   "thumb": "thumbs/leaf.png",
+   "file": "shapes/leaf.png",
+   "kb": 32
+  },
+  {
+   "id": "shield",
+   "name": "Shield",
+   "category": "shapes",
+   "thumb": "thumbs/shield.png",
+   "file": "shapes/shield.png",
+   "kb": 22
+  },
+  {
+   "id": "ribbon",
+   "name": "Ribbon banner",
+   "category": "shapes",
+   "thumb": "thumbs/ribbon.png",
+   "file": "shapes/ribbon.png",
+   "kb": 17
+  },
+  {
+   "id": "badge",
+   "name": "Badge",
+   "category": "shapes",
+   "thumb": "thumbs/badge.png",
+   "file": "shapes/badge.png",
+   "kb": 45
+  },
+  {
+   "id": "arch",
+   "name": "Arch",
+   "category": "shapes",
+   "thumb": "thumbs/arch.png",
+   "file": "shapes/arch.png",
+   "kb": 17
+  },
+  {
+   "id": "blob-1",
+   "name": "Organic blob 1",
+   "category": "shapes",
+   "thumb": "thumbs/blob-1.png",
+   "file": "shapes/blob-1.png",
+   "kb": 30
+  },
+  {
+   "id": "blob-2",
+   "name": "Organic blob 2",
+   "category": "shapes",
+   "thumb": "thumbs/blob-2.png",
+   "file": "shapes/blob-2.png",
+   "kb": 31
+  },
+  {
+   "id": "blob-3",
+   "name": "Organic blob 3",
+   "category": "shapes",
+   "thumb": "thumbs/blob-3.png",
+   "file": "shapes/blob-3.png",
+   "kb": 20
+  },
+  {
+   "id": "parallelogram",
+   "name": "Parallelogram",
+   "category": "shapes",
+   "thumb": "thumbs/parallelogram.png",
+   "file": "shapes/parallelogram.png",
+   "kb": 7
+  },
+  {
+   "id": "trapezoid",
+   "name": "Trapezoid",
+   "category": "shapes",
+   "thumb": "thumbs/trapezoid.png",
+   "file": "shapes/trapezoid.png",
+   "kb": 22
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "category": "shapes",
+   "thumb": "thumbs/target.png",
+   "file": "shapes/target.png",
+   "kb": 52
+  },
+  {
+   "id": "pin",
+   "name": "Map pin",
+   "category": "shapes",
+   "thumb": "thumbs/pin.png",
+   "file": "shapes/pin.png",
+   "kb": 24
+  },
+  {
+   "id": "arrow-right",
+   "name": "Block arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-right.png",
+   "file": "arrows/arrow-right.png",
+   "kb": 19
+  },
+  {
+   "id": "arrow-thin",
+   "name": "Thin arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-thin.png",
+   "file": "arrows/arrow-thin.png",
+   "kb": 7
+  },
+  {
+   "id": "arrow-double",
+   "name": "Double arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-double.png",
+   "file": "arrows/arrow-double.png",
+   "kb": 12
+  },
+  {
+   "id": "arrow-up",
+   "name": "Up arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-up.png",
+   "file": "arrows/arrow-up.png",
+   "kb": 18
+  },
+  {
+   "id": "arrow-down",
+   "name": "Down arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-down.png",
+   "file": "arrows/arrow-down.png",
+   "kb": 18
+  },
+  {
+   "id": "arrow-diagonal",
+   "name": "Diagonal arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-diagonal.png",
+   "file": "arrows/arrow-diagonal.png",
+   "kb": 10
+  },
+  {
+   "id": "arrow-curve",
+   "name": "Curved arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-curve.png",
+   "file": "arrows/arrow-curve.png",
+   "kb": 30
+  },
+  {
+   "id": "arrow-arc",
+   "name": "Arc arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-arc.png",
+   "file": "arrows/arrow-arc.png",
+   "kb": 37
+  },
+  {
+   "id": "arrow-uturn",
+   "name": "U-turn arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-uturn.png",
+   "file": "arrows/arrow-uturn.png",
+   "kb": 37
+  },
+  {
+   "id": "arrow-refresh",
+   "name": "Refresh arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-refresh.png",
+   "file": "arrows/arrow-refresh.png",
+   "kb": 48
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron",
+   "category": "arrows",
+   "thumb": "thumbs/chevron.png",
+   "file": "arrows/chevron.png",
+   "kb": 11
+  },
+  {
+   "id": "double-chevron",
+   "name": "Double chevron",
+   "category": "arrows",
+   "thumb": "thumbs/double-chevron.png",
+   "file": "arrows/double-chevron.png",
+   "kb": 14
+  },
+  {
+   "id": "pointer",
+   "name": "Pointer",
+   "category": "arrows",
+   "thumb": "thumbs/pointer.png",
+   "file": "arrows/pointer.png",
+   "kb": 28
+  },
+  {
+   "id": "arrow-dashed",
+   "name": "Dashed arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-dashed.png",
+   "file": "arrows/arrow-dashed.png",
+   "kb": 12
+  },
+  {
+   "id": "arrow-hand",
+   "name": "Hand-drawn arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-hand.png",
+   "file": "arrows/arrow-hand.png",
+   "kb": 36
+  },
+  {
+   "id": "arrow-zigzag",
+   "name": "Zigzag arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-zigzag.png",
+   "file": "arrows/arrow-zigzag.png",
+   "kb": 30
+  },
+  {
+   "id": "arrow-bent",
+   "name": "Bent arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-bent.png",
+   "file": "arrows/arrow-bent.png",
+   "kb": 16
+  },
+  {
+   "id": "arrow-fork",
+   "name": "Split arrow",
+   "category": "arrows",
+   "thumb": "thumbs/arrow-fork.png",
+   "file": "arrows/arrow-fork.png",
+   "kb": 18
+  },
+  {
+   "id": "cursor",
+   "name": "Cursor",
+   "category": "arrows",
+   "thumb": "thumbs/cursor.png",
+   "file": "arrows/cursor.png",
+   "kb": 17
+  },
+  {
+   "id": "fluid-aurora",
+   "name": "Fluid aurora",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-aurora.jpg",
+   "file": "abstract/fluid-aurora.jpg",
+   "kb": 107
+  },
+  {
+   "id": "fluid-sunset",
+   "name": "Fluid sunset",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-sunset.jpg",
+   "file": "abstract/fluid-sunset.jpg",
+   "kb": 82
+  },
+  {
+   "id": "fluid-ocean",
+   "name": "Fluid ocean",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-ocean.jpg",
+   "file": "abstract/fluid-ocean.jpg",
+   "kb": 92
+  },
+  {
+   "id": "fluid-forest",
+   "name": "Fluid forest",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-forest.jpg",
+   "file": "abstract/fluid-forest.jpg",
+   "kb": 83
+  },
+  {
+   "id": "fluid-candy",
+   "name": "Fluid candy",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-candy.jpg",
+   "file": "abstract/fluid-candy.jpg",
+   "kb": 59
+  },
+  {
+   "id": "fluid-midnight",
+   "name": "Fluid midnight",
+   "category": "abstract",
+   "thumb": "thumbs/fluid-midnight.jpg",
+   "file": "abstract/fluid-midnight.jpg",
+   "kb": 68
+  },
+  {
+   "id": "waves-blue",
+   "name": "Blue waves",
+   "category": "abstract",
+   "thumb": "thumbs/waves-blue.jpg",
+   "file": "abstract/waves-blue.jpg",
+   "kb": 37
+  },
+  {
+   "id": "waves-sunset",
+   "name": "Sunset waves",
+   "category": "abstract",
+   "thumb": "thumbs/waves-sunset.jpg",
+   "file": "abstract/waves-sunset.jpg",
+   "kb": 39
+  },
+  {
+   "id": "waves-green",
+   "name": "Green waves",
+   "category": "abstract",
+   "thumb": "thumbs/waves-green.jpg",
+   "file": "abstract/waves-green.jpg",
+   "kb": 36
+  },
+  {
+   "id": "bokeh-night",
+   "name": "Night bokeh",
+   "category": "abstract",
+   "thumb": "thumbs/bokeh-night.jpg",
+   "file": "abstract/bokeh-night.jpg",
+   "kb": 59
+  },
+  {
+   "id": "bokeh-warm",
+   "name": "Warm bokeh",
+   "category": "abstract",
+   "thumb": "thumbs/bokeh-warm.jpg",
+   "file": "abstract/bokeh-warm.jpg",
+   "kb": 48
+  },
+  {
+   "id": "lowpoly-blue",
+   "name": "Low-poly blue",
+   "category": "abstract",
+   "thumb": "thumbs/lowpoly-blue.jpg",
+   "file": "abstract/lowpoly-blue.jpg",
+   "kb": 103
+  },
+  {
+   "id": "lowpoly-sunset",
+   "name": "Low-poly sunset",
+   "category": "abstract",
+   "thumb": "thumbs/lowpoly-sunset.jpg",
+   "file": "abstract/lowpoly-sunset.jpg",
+   "kb": 106
+  },
+  {
+   "id": "sunset-mountains",
+   "name": "Sunset mountains",
+   "category": "nature",
+   "thumb": "thumbs/sunset-mountains.jpg",
+   "file": "nature/sunset-mountains.jpg",
+   "kb": 151
+  },
+  {
+   "id": "misty-peaks",
+   "name": "Misty peaks",
+   "category": "nature",
+   "thumb": "thumbs/misty-peaks.jpg",
+   "file": "nature/misty-peaks.jpg",
+   "kb": 133
+  },
+  {
+   "id": "starry-mountains",
+   "name": "Starry mountains",
+   "category": "nature",
+   "thumb": "thumbs/starry-mountains.jpg",
+   "file": "nature/starry-mountains.jpg",
+   "kb": 157
+  },
+  {
+   "id": "desert-dunes",
+   "name": "Desert dunes",
+   "category": "nature",
+   "thumb": "thumbs/desert-dunes.jpg",
+   "file": "nature/desert-dunes.jpg",
+   "kb": 107
+  },
+  {
+   "id": "green-hills",
+   "name": "Green hills",
+   "category": "nature",
+   "thumb": "thumbs/green-hills.jpg",
+   "file": "nature/green-hills.jpg",
+   "kb": 132
+  },
+  {
+   "id": "twilight-ridge",
+   "name": "Twilight ridge",
+   "category": "nature",
+   "thumb": "thumbs/twilight-ridge.jpg",
+   "file": "nature/twilight-ridge.jpg",
+   "kb": 149
+  },
+  {
+   "id": "aurora",
+   "name": "Aurora night",
+   "category": "nature",
+   "thumb": "thumbs/aurora.jpg",
+   "file": "nature/aurora.jpg",
+   "kb": 184
+  },
+  {
+   "id": "forest-morning",
+   "name": "Forest morning",
+   "category": "nature",
+   "thumb": "thumbs/forest-morning.jpg",
+   "file": "nature/forest-morning.jpg",
+   "kb": 143
+  },
+  {
+   "id": "ocean-horizon",
+   "name": "Ocean horizon",
+   "category": "nature",
+   "thumb": "thumbs/ocean-horizon.jpg",
+   "file": "nature/ocean-horizon.jpg",
+   "kb": 138
+  },
+  {
+   "id": "snow-peaks",
+   "name": "Snow peaks",
+   "category": "nature",
+   "thumb": "thumbs/snow-peaks.jpg",
+   "file": "nature/snow-peaks.jpg",
+   "kb": 153
+  }
+ ]
+}
